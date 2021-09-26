@@ -29,3 +29,18 @@ python main.py
 # pip install the requirements-dev.txt
 pytest tests
 ```
+
+## Run on Docker
+
+(sharing the /tmp/data directory on the host as /app/output to the container.)
+
+```
+make build
+make run
+```
+
+## TODOs
+
+1. Exception handling
+2. More sophisticated storage layer
+3. Improved throughput of requests
